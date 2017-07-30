@@ -1,0 +1,182 @@
+{
+	"name": "dark+(elixir)",
+	"type": "dark",
+	"include": "./dark_plus.json",
+	"colors": {
+		"editorBracketMatch.background": "#249024"	
+	},
+	"tokenColors": [
+		{
+			"name": "Atoms",
+			"scope": [
+				"constant.other.symbol.elixir"
+			],
+			"settings": {
+				// "fontStyle": "italic",
+				"foreground": "#9CDCFE"
+			}
+		},
+		{
+			"name": "Atom colons",
+			"scope": [
+				"punctuation.definition.constant.elixir"
+			],
+			"settings": {
+				"foreground": "#DCDCAA"
+			}
+		},
+		{
+			"name": "Non-numeric constants",
+			"scope": [
+				"constant.language.elixir"
+			],
+			"settings": {
+				"foreground": "#FF8C18"
+			}
+		},
+		{
+			"name": "String interpolation",
+			"scope": [
+				"source.elixir.embedded.source"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#A24949"
+			}
+		},
+		{
+			"name": "Key word operators",
+			"scope": [
+				"keyword.operator.other.elixir",
+				"keyword.operator.arithmetic.elixir",
+				"keyword.operator.logical.elixir",
+				"keyword.operator.assignment.elixir",
+				"keyword.operator.comparison.elixir",
+				"keyword.operator.elixir"
+			],
+			"settings": {
+				"foreground": "#ce9178"
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": [
+				"comment.line.number-sign.elixir",
+				"comment.documentation.heredoc.elixir"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#51616D"
+			}
+		},
+				{
+			"name": "Wild cards and unused args",
+			"scope": [
+				"wildcard.comment.elixir",
+				"unused.comment.elixir"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#51616D"
+			}
+		},
+		{
+			"name": "Module variables",
+			"scope": [
+				"variable.other.readwrite.module.elixir"
+			],
+			"settings": {
+				"foreground": "#D93D42"
+			}
+		},
+		{
+			"name": "Modules",
+			"scope": [
+				"variable.other.constant.elixir"
+			],
+			"settings": {
+				"foreground": "#4EC9B0"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string.quoted.double.elixir",
+				"string.quoted.double.heredoc.elixir",
+				"string.quoted.double.interpolated.elixir",
+				"string.regexp.interpolated.elixir",
+				"string.regexp.group.elixir",
+				"string.regexp.character-class.elixir"
+			],
+			"settings": {
+				"foreground": "#98BE64"
+			}
+		},
+		{
+			"name": "Lambda captures",
+			"scope": [
+				"variable.other.anonymous.elixir"
+			],
+			"settings": {
+				"foreground": "#D93D42"
+			}
+		},
+		{
+			"name": "Escapes",
+			"scope": [
+				"constant.character.escape.elixir"
+			],
+			"settings": {
+				"foreground": "#FF8C18"
+			}
+		},
+		{
+			"name": "Regexp classes",
+			"scope": [
+				"punctuation.definition.character-class.elixir"
+			],
+			"settings": {
+				"foreground": "#549CC1"
+			}
+		},
+		{
+			"name": "Regexp groups",
+			"scope": [
+				"punctuation.definition.group.elixir"
+			],
+			"settings": {
+				"foreground": "#D93D42"
+			}
+		},
+		{
+			"name": "Sigil literals",
+			"scope": [
+				"string.quoted.double.literal.elixir"
+			],
+			"settings": {
+				"foreground": "#FF8C18"
+			}
+		},
+		{
+			"name": "Html embedded tags",
+			"scope": [
+				"punctuation.section.embedded.elixir"
+			],
+			"settings": {
+				"foreground": "#D93D42"
+			}
+		}
+		
+		// {
+		// 	"name": "Arrays, Maps",
+		// 	"scope": [
+		// 		"punctuation.section.scope.elixir",
+		// 		"punctuation.section.array.elixir"
+
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#FFFFFF"
+		// 	}
+		// }
+	]
+}

@@ -1,0 +1,25 @@
+<div class="login">
+  <%= form_for @changeset, login_path(@conn, :create), fn f -> %>
+    <%= if @changeset.action do %>
+      <div class="alert alert-danger">
+        <p><%= "Oops, something went wrong! Please check the errors below." %></p>
+      </div>
+    <% end %>
+
+    <div class="form-group">
+      <%= label f, :username, "", class: "control-label" %>
+      <%= text_input f, :username, placeholder: "Username", class: "form-control" %>
+      <%= error_tag f, :username %>
+    </div>
+
+    <div class="form-group">
+      <%= label f, :password, "", class: "control-label" %>
+      <%= password_input f, :password, placeholder: "Password", class: "form-control" %>
+      <%= error_tag f, :password %>
+    </div>
+
+    <div class="form-group">
+      <%= submit "Log in", class: "btn btn-primary" %>
+    </div>
+  <% end %>
+</div>
