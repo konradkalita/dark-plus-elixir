@@ -2,7 +2,7 @@
     "name": "dark-plus-elixir",
     "displayName": "dark_plus_elixir",
     "description": "Elixir customized syntax based on a default dark+",
-    "version": "0.1",
+    "version": "0.1.0",
     "publisher": "kkalita",
     "engines": {
         "vscode": "^1.14.0"
